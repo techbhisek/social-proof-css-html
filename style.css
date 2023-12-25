@@ -1,0 +1,115 @@
+#container {
+  width: 90vw;
+  height: 100vh;
+
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background: url('./images/bg-pattern-top-desktop.svg'),
+    url('./images/bg-pattern-bottom-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  font-family: 'League Spartan', sans-serif;
+}
+#heading-section {
+  width: 87%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+
+#header {
+  width: 35%;
+  height: 50vh;
+  text-align: left;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  color: hsl(303, 10%, 53%);
+  line-height: 30px;
+}
+#main-heading {
+  color: hsl(300, 43%, 22%);
+  font-size: 70px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+#cards-triple {
+  width: 36%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.five-star-card-info {
+  display: flex;
+  height: 30px;
+  width: 17vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  padding-right: 60px;
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+}
+.five-star-card-info:nth-child(2) {
+  margin-left: 50px;
+}
+.five-star-card-info:nth-child(3) {
+  margin-left: 100px;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cards-info {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30vh;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.profile-section {
+  display: flex;
+  width: 50%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-info:nth-child(2) {
+  margin-top: 30px;
+}
+.cards-info:nth-child(3) {
+  margin-top: 60px;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.profile-details {
+  color: hsl(303, 10%, 53%);
+}
+.profile-details > h3 {
+  margin: 0px;
+  margin-bottom: 5px;
+  color: white;
+}
+article {
+  line-height: 25px;
+  text-align: left;
+}
