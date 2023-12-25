@@ -115,3 +115,72 @@ article {
   line-height: 25px;
   text-align: left;
 }
+@media screen and (max-width: 500px) {
+  #container {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  #heading-section {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0px auto;
+  }
+  #header {
+    width: fit-content;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    line-height: 25px;
+    box-sizing: border-box;
+  }
+  #main-heading {
+    font-size: 40px;
+    width: 70vw;
+    margin: 20px auto;
+    line-height: 40px;
+  }
+  #cards-triple {
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  h4 {
+    margin: 10px 0px;
+  }
+  .five-star-card-info {
+    display: block;
+    width: 90vw;
+    height: fit-content;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .five-star-card-info:nth-child(1),
+  .five-star-card-info:nth-child(2),
+  .five-star-card-info:nth-child(3) {
+    margin-left: 0px;
+  }
+  .cards-info {
+    width: 90vw;
+    height: 250px;
+    margin: 20px auto;
+  }
+  .cards-info:nth-child(2),
+  .cards-info:nth-child(3) {
+    margin-top: 0px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  article {
+    margin: 10px;
+  }
+}
